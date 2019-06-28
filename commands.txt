@@ -1,0 +1,9 @@
+To upload:
+rsync -av -e ssh --exclude='COMP3211_2019Q1_a3/.vscode/' COMP3211_2019Q1_a3 aparedandan@csl2wk05.cse.ust.hk:~
+
+To download specific file:
+scp aparedandan@csl2wk02.cse.ust.hk:COMP3211_2019Q1_a3/part_demo/predict.xml ~/Downloads/COMP3211_2019Q1_a3/part_demo/
+
+scp aparedandan@csl2wk02.cse.ust.hk:COMP3211_2019Q1_a3/part_a/predict.xml ~/Downloads/COMP3211_2019Q1_a3/part_a/
+
+scp aparedandan@csl2wk02.cse.ust.hk:COMP3211_2019Q1_a3/part_b/predict.xml ~/Downloads/COMP3211_2019Q1_a3/part_b/
